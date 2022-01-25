@@ -1,6 +1,6 @@
-# NowSecure Auto Analysis
+# NowSecure Platform Analysis
 
-Performs security analysis using NowSecure Auto.
+Performs security analysis using NowSecure Platform.
 
 
 ## How to use this Step

@@ -1,9 +1,9 @@
 title: |-
-  NowSecure Auto Analysis
+  NowSecure Platform Analysis
 summary: |
-  Performs security analysis using NowSecure Auto (https://lab.nowsecure.com/).
+  Performs security analysis using NowSecure Platform (https://lab.nowsecure.com/).
 description: |
-  Performs security analysis using NowSecure Auto (https://lab.nowsecure.com/).
+  Performs security analysis using NowSecure Platform (https://lab.nowsecure.com/).
 website: https://github.com/nowsecure/bitrise-step-nowsecure-auto-analysis
 source_code_url: https://github.com/nowsecure/bitrise-step-nowsecure-auto-analysis
 support_url: https://support.nowsecure.com
@@ -43,16 +43,16 @@ inputs:
   - nowsecure_api_token:
     opts:
       description: |
-        NowSecure token generated from NowSecure Auto console
+        NowSecure token generated from NowSecure Platform console
       is_required: true
       is_sensitive: true
-      summary: Your NowSecure Auto API token
-      title: NowSecure Auto API token
+      summary: Your NowSecure Platform API token
+      title: NowSecure Platform API token
   - nowsecure_group_id:
     opts:
       description: |
         NowSecure Group ID which is required only if your NowSecure token has access to multiple groups
       is_required: false
       is_sensitive: true
-      summary: Your NowSecure Auto group ID for this app
-      title: NowSecure Auto group ID
+      summary: Your NowSecure Platform group ID for this app
+      title: NowSecure Platform group ID
