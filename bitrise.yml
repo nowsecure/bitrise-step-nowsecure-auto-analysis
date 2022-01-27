@@ -6,7 +6,7 @@ app:
   # If you want to share this step into a StepLib
   - BITRISE_STEP_ID: nowsecure-auto-analysis
   - BITRISE_STEP_VERSION: "0.1.2"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/sp3nx0r/bitrise-step-nowsecure-auto-analysis.git
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/nowsecure/bitrise-step-nowsecure-auto-analysis.git
   - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
 
 workflows:
@@ -24,9 +24,9 @@ workflows:
         - path: ./_tmp
         - is_create_path: true
     - path::./:
-        title: NowSecure Auto Upload Step Test
+        title: NowSecure Platform Upload Step Test
         description: |-
-          Uploads an IPA/APK file to NowSecure Auto for further analysis
+          Uploads an IPA/APK file to NowSecure Platform for further analysis
           To test this, you need a NowSecure account with a valid token and an IPA/APK path from which to upload
           If multiple NowSecure Groups are available for the token, also include the Group ID
         run_if: true
